@@ -1,49 +1,258 @@
 ﻿<!DOCTYPE html>
-<html>
+{#<html>#}
+{#<head>#}
+{#    <meta charset="utf-8" />#}
+{#    <meta name="viewport" content="width=device-width, initial-scale=1.0">#}
+{#    <title>{{ title }} - My Django Application</title>#}
+{#    {% load staticfiles %}#}
+{#    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />#}
+{#    <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />#}
+{#    <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>#}
+{#</head>#}
+{##}
+{#<body>#}
+{#    <div class="navbar navbar-inverse navbar-fixed-top">#}
+{#        <div class="container">#}
+{#            <div class="navbar-header">#}
+{#                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">#}
+{#                    <span class="icon-bar"></span>#}
+{#                    <span class="icon-bar"></span>#}
+{#                    <span class="icon-bar"></span>#}
+{#                </button>#}
+{#                <a href="/" class="navbar-brand">Application name</a>#}
+{#            </div>#}
+{#            <div class="navbar-collapse collapse">#}
+{#                <ul class="nav navbar-nav">#}
+{#                    <li><a href="{% url 'home' %}">Home</a></li>#}
+{#                    <li><a href="{% url 'about' %}">About</a></li>#}
+{#                    <li><a href="{% url 'contact' %}">Contact</a></li>#}
+{#                </ul>#}
+{#                {% include 'app/loginpartial.html' %}#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{##}
+{#    <div class="container body-content">#}
+{#{% block content %}{% endblock %}#}
+{#        <hr/>#}
+{#        <footer>#}
+{#            <p>&copy; {{ year }} - My Django Application</p>#}
+{#        </footer>#}
+{#    </div>#}
+{##}
+{#    <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>#}
+{#    <script src="{% static 'app/scripts/bootstrap.js' %}"></script>#}
+{#    <script src="{% static 'app/scripts/respond.js' %}"></script>#}
+{#{% block scripts %}{% endblock %}#}
+{##}
+{#</body>#}
+{#</html>#}
+
+<html lang="en-us">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - My Django Application</title>
-    {% load staticfiles %}
-    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
-    <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="telephone=no" name="format-detection">										<!--Remove styling of telephone numbers on IOS-->
+    <meta name="description" content="A Template by Designzway Team"> 							<!--Change content-->
+    <meta name="keywords" content="HTML, LESS, CSS, JavaScript"> 								<!--Change content-->
+    <meta name="author" content="Designzway Team"> 												<!--Change content-->
+	<title>{{ title }} Tamkeen4st</title>
+     {% load staticfiles %}<!--Change title-->
+    <link href="{% static 'app/css/style.css'%}" rel="stylesheet">    										<!-- Stylesheet -->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="/" class="navbar-brand">Application name</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="{% url 'home' %}">Home</a></li>
-                    <li><a href="{% url 'about' %}">About</a></li>
-                    <li><a href="{% url 'contact' %}">Contact</a></li>
-                </ul>
-                {% include 'app/loginpartial.html' %}
-            </div>
-        </div>
-    </div>
+<div class="wrapper">
+<!-- Begin header -->
+	<header>
+		<div class="presentation">
+			<!-- Begin top navigation -->
+			<div class="top-info">
+		   		<div class="container">
+		            <p class="top-info__text pull-left hidden-xs small">
+		                Keep in touch with us  <a href="#">here</a>
+		            </p>
+		            <p class="top-info__text pull-right small">
+		                Have any questions? Just call us <span class="text-highlight">(+20)1006504323</span>
+		            </p>
+		   		</div>
+			</div>
+			<!-- End top navigation -->
 
-    <div class="container body-content">
-{% block content %}{% endblock %}
-        <hr/>
-        <footer>
-            <p>&copy; {{ year }} - My Django Application</p>
-        </footer>
-    </div>
+			<!-- Begin main navigation -->
+			<div class="main-nav">
 
-    <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>
-    <script src="{% static 'app/scripts/bootstrap.js' %}"></script>
-    <script src="{% static 'app/scripts/respond.js' %}"></script>
-{% block scripts %}{% endblock %}
+		        <div class="divider-circle"></div>
+
+	        	<nav class="container">
+	        		<!-- Logo -->
+	                <div class="logo pull-left">
+	                    <a href="index.html">
+	                    	<!-- Remove comments to choose image and add comment to h1 -->
+	                    	<!--<img class="logo-img" src="images/logo.png" alt="Appic logo">-->
+	                        <h1 class="logo-text">Tamkeen<span class="text-highlight">4st</span></h1>
+	                    </a>
+	                </div>
+	                <!-- End Logo -->
+
+	 				<!-- Main navigation-->
+					<div class="pull-right" id="navigation-box">
+	                    <a id="navigation-toggle" href="#">
+	                        <span class="menu-icon"></span>
+	                    </a>
+	                    <ul id="navigation">
+	                        <li class="active-item">
+	                            <span class="sub-nav-toggle plus"></span>
+	                            <a href={% url 'home' %}>Home</a>
+
+	                        </li>
+	                        <li><a href={% url 'home' %}>About</a></li>
+                             <li>
+	                            <span class="sub-nav-toggle plus"></span>
+	                            <a href="#">Sponsors & Partners</a>
+
+	                        </li>
+                             <li>
+	                            <span class="sub-nav-toggle plus"></span>
+	                            <a href="#">Projects</a>
+
+	                        </li>
+
+
+
+
+
+	                        <li><a href="{% url 'contact' %}">Contact us</a></li>
+	                    </ul>
+	                </div>
+	        	</nav>
+			</div>
+			<!-- End main navigation -->
+		</div>
+		<!-- End presentation-->
+
+	</header>
+	<!-- End header -->
+
+
+    {% block content %}
+
+
+    {% endblock %}
+
+
+<!--Begin footer -->
+	<footer class="footer-wrapper">
+		<!--Begin footer widget-->
+		<div class="container footer-widgets">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-6 widget-news">
+					<h3 class="widget-title"></h3>
+					<div class="row">
+
+						<div class="col-sm-6 col-md-6">
+			                <address class="widget-contacts">
+			                	<span class="widget-contacts__item"><i class="icon-circle icon-circle--thin fa fa-phone"></i>(+20)1006504323</span><br/>
+			                    <span class="widget-contacts__item"><i class="icon-circle icon-circle--thin fa fa-envelope"></i><a href="mailto:appic@gmail.com">info@tamkeen4st.com</a></span>
+			                    <span class="widget-contacts__item"><i class="icon-circle icon-circle--thin fa fa-map-marker"></i>Smart-Village, Building (B5).
+Cairo-Alex Desert Road Giza, Egypt ,P.O. Box: 12577.</span>
+		               		</address>
+						</div>
+                        <div class="col-sm-6 col-md-6">
+
+                        </div>
+               		</div>
+				</div>
+
+				<div class="col-sm-12 col-md-7 col-lg-6 widget-flickr">
+<a class="btn btn--highlight btn-wider" href="{% url 'contact' %}" style="vertical-align: bottom">Contact Us</a>
+
+				</div>
+			</div>
+		</div>
+		<!--End footer widget -->
+
+		<!--Begin footer secondary -->
+		<div class="footer-secondary">
+
+            <div class="divider-circle"></div>
+
+			<div class="container" style="text-align: center">
+{#				<ul class="social">#}
+{#		        	<li class="social__item custom-tooltip tooltip--info" title="pinterest">#}
+{#		        		<a class="icon-circle fa fa-pinterest" href="http://pinterest.com/oliagozha/" target="_blank"></a>#}
+{#		        	</li>#}
+{#		            <li class="social__item custom-tooltip tooltip--info" title="google">#}
+{#		            	<a class="icon-circle fa fa-google-plus" href="https://plus.google.com/u/0/100180333527158639883/posts" target="_blank"></a>#}
+{#		            </li>#}
+{#		            <li class="social__item custom-tooltip tooltip--info" title="linkedin">#}
+{#		            	<a class="icon-circle fa fa-linkedin" href="http://ua.linkedin.com/pub/olia-gozha/49/b91/268" target="_blank"></a>#}
+{#		            </li>#}
+{#		            <li class="social__item custom-tooltip tooltip--info" title="twitter">#}
+{#		            	<a class="icon-circle fa fa-twitter" href="http://twitter.com/@OliaGozha" target="_blank"></a>#}
+{#		            </li>#}
+{#		            <li class="social__item custom-tooltip tooltip--info" title="facebook">#}
+{#		            	<a class="icon-circle fa fa-facebook" href="http://www.facebook.com/people/@/http://www.facebook.com/olia.gozha" target="_blank"></a>#}
+{#		            </li>#}
+{#	        	</ul>#}
+
+		    	<div class="copyright" style="float: none;">
+		        	<small class="small">  All rights reserved. &copy; 2016  <a href="http://tamkeen4st.com">Tamkeen4st</a></small>
+		        </div>
+
+			</div>
+		</div>
+		<!--End footer secondary -->
+	</footer>
+	<!--End footer -->
+</div>
+
+<!--End wrapper -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <!--Script jQuery-->
+<script>window.jQuery || document.write('<script src="external/jquery/jquery-1.11.0.min.js"><\/script>')</script> <!--Script jQuery-->
+<script src="{% static 'app/external/jquery/jquery-migrate-1.2.1.min.js' %}"></script>			<!--Script jQuery for old version jQuery-->
+<script src="{% static 'app/external/bootstrap/js/bootstrap.min.js'%}"></script>				<!--Bootstrap JavaScript-->
+<script src="{% static 'app/external/jquery-event/jquery.event.drag-2.2.js' %}"></script>		<!--Script jquery event Drag-->
+<script src="{% static 'app/external/jquery-event/jquery.event.drop-2.2.js' %}"></script>		<!--Script jquery event Drop-->
+<script src="{% static 'app/external/jquery-easing/jquery.easing.1.3.js' %}"></script>			<!--Script jquery Easing-->
+<script src="{% static 'app/external/jquery-roundabout/jquery.roundabout.min.js' %}"></script>	<!--Script Roundabout-->
+<script src="{% static 'app/external/swiper/idangerous.swiper.min.js' %}"></script>			<!--Script Swiper slider -->
+<script src="{% static 'app/external/jquery-twitter/jquery.twitter.js' %}"></script>			<!--Script Twitter-->
+<script src="{% static 'app/external/jflickrfeed/jflickrfeed.js' %}"></script>					<!--Script Widget Flikr-->
+<script src="{% static 'app/external/gozha-nav/jquery.mobile.menu.js' %}"></script>			<!--Script Mobile menu-->
+<script src="{% static 'app/external/modernizr/modernizr.custom.91224.js' %}"></script>		<!--Script Modernizr-->
+<script src="{% static 'app/external/colorbox/jquery.colorbox.js' %}"></script>				<!--Script Сolorbox-->
+<script src="{% static 'app/js/form.js' %}"></script>											<!--Script Forms -->
+<script src="{% static 'app/js/custom.js' %}"></script>										<!--Script Custom-->
+
+<script>
+$(document).ready(function() {
+
+	//Button hover
+	init_ButtonInfo();
+
+	init_Button ();
+
+	//Roundabout slider
+	init_Roundabout();
+
+	//Swiper
+	init_DecoratedSlider();
+
+	init_QoutationSlider();
+
+	//Services hover
+	init_ServicesInfo();
+});
+</script>
 
 </body>
 </html>
