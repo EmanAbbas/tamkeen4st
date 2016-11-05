@@ -28,9 +28,11 @@ class Subscriber(models.Model):
 class Project(models.Model):
     project_name=models.CharField(max_length=200)
     description=models.TextField()
-    video=models.FileField(blank=True, null=True)
-    topics_covered=models.TextField()
-    notes=models.CharField(max_length=500)
+    video=models.FileField(blank=True, null=True,upload_to='uploads')
+    image=models.ImageField(upload_to='uploads' , default='static/app/images/torgoman.PNG')
+    project_link = models.CharField(max_length=250,blank=True, null=True)
+
+    notes=models.CharField(max_length=500,blank=True, null=True)
 
     def __str__(self):
         return self.project_name
