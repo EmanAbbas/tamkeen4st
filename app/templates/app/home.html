@@ -144,7 +144,7 @@
 {#{% with "slide" |add :forloop.counter as sty %}#}
 							    <div class="swiper-slide swiper-slide--active" data-order="slide{{ forloop.counter }}">
 				                	<div class="services__item">
-                                        <img src="{{ project.image.url }}">
+                                        <img src="{% static project.image.url %}">
 										<i class="icon icon-circle icon-circle--lg fa fa-cog"></i>
 										<h4 class="service__title">{{ project.project_name }}</h4>
 									</div>
@@ -270,7 +270,7 @@
 			<div class=" col-md-12 awesome-right">
                 {% for sponsor in sponsors %}
 				<div class="awesome-right-grid">
-					<a href="{{ sponsor.photo.url }}" class="b-link-stripe b-animate-go   swipebox"  title="">
+					<a href="{% static sponsor.photo.url %}" class="b-link-stripe b-animate-go   swipebox"  title="">
                         <img class="one" src="{% static sponsor.photo.url %}" alt=" " title="Science Laboratory" />
 						<div class="b-wrapper">
 							<h2 class="b-animate b-from-left    b-delay03 ">

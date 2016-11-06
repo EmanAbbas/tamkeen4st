@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd61c0f3-99a9-4b7e-88bc-574086507829" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/FollowMe.mp4" afterPath="$PROJECT_DIR$/app/static/media/uploads/FollowMe.mp4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/FollowMe_z1225Ow.mp4" afterPath="$PROJECT_DIR$/app/static/media/uploads/FollowMe_z1225Ow.mp4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/MobserDemo.mp4" afterPath="$PROJECT_DIR$/app/static/media/uploads/MobserDemo.mp4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/atm4deaf.PNG" afterPath="$PROJECT_DIR$/app/static/media/uploads/atm4deaf.PNG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/atm4deaf_voice.mp4" afterPath="$PROJECT_DIR$/app/static/media/uploads/atm4deaf_voice.mp4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/diar.PNG" afterPath="$PROJECT_DIR$/app/static/media/uploads/diar.PNG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/follow.PNG" afterPath="$PROJECT_DIR$/app/static/media/uploads/follow.PNG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/mobser.PNG" afterPath="$PROJECT_DIR$/app/static/media/uploads/mobser.PNG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/tiec.jpg" afterPath="$PROJECT_DIR$/app/static/media/uploads/tiec.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/uploads/viooz.png" afterPath="$PROJECT_DIR$/app/static/media/uploads/viooz.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoApp/settings.py" afterPath="$PROJECT_DIR$/DjangoApp/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DjangoApp/urls.py" afterPath="$PROJECT_DIR$/DjangoApp/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/app/home.html" afterPath="$PROJECT_DIR$/app/templates/app/home.html" />
     </list>
@@ -40,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="146" column="52" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
+              <caret line="272" column="56" selection-start-line="272" selection-start-column="53" selection-end-line="272" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -92,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DjangoApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="148">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -168,9 +156,9 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/DjangoApp/wsgi.py" />
-        <option value="$PROJECT_DIR$/DjangoApp/urls.py" />
-        <option value="$PROJECT_DIR$/app/templates/app/home.html" />
         <option value="$PROJECT_DIR$/DjangoApp/settings.py" />
+        <option value="$PROJECT_DIR$/app/templates/app/home.html" />
+        <option value="$PROJECT_DIR$/DjangoApp/urls.py" />
       </list>
     </option>
   </component>
@@ -978,14 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -997,7 +977,15 @@
     <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="146" column="52" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
+          <caret line="272" column="56" selection-start-line="272" selection-start-column="53" selection-end-line="272" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
           <folding />
         </state>
       </provider>
