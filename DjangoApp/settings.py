@@ -60,7 +60,7 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = path.join(PROJECT_ROOT, 'media').replace('\\', '/')
+MEDIA_ROOT = path.join(PROJECT_ROOT, 'app/static/media').replace('\\', '/')
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -96,6 +96,8 @@ STATIC_ROOT = path.join(PROJECT_ROOT, 'staticfiles').replace('\\', '/')
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'
+
+MEDIA_ROOT = path.join(STATIC_ROOT, 'media').replace('\\', '/')
 
 # List of finder classes that know how to find static files in
 # various locations.

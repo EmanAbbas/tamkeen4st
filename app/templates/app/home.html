@@ -271,7 +271,7 @@
                 {% for sponsor in sponsors %}
 				<div class="awesome-right-grid">
 					<a href="{{ sponsor.photo.url }}" class="b-link-stripe b-animate-go   swipebox"  title="">
-                        <img class="one" src="{{ sponsor.photo.url }}" alt=" " title="Science Laboratory" />
+                        <img class="one" src="{% static sponsor.photo.url %}" alt=" " title="Science Laboratory" />
 						<div class="b-wrapper">
 							<h2 class="b-animate b-from-left    b-delay03 ">
 								<img class="img-responsive" src="static/app/images/plus.png" class="zoom" alt=""/>
