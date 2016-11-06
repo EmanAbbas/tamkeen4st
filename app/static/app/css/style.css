@@ -8581,7 +8581,7 @@ a.custom-tooltip:hover {
     border-color: transparent #e5e5da transparent transparent;
   }
   .contact-form .form__field {
-    width: 48.638132%;
+    width: 100%;
   }
   .contact-form .form__field--message {
     width: 100%;
@@ -9102,6 +9102,103 @@ a.custom-tooltip:hover {
   .choose-us .section-title {
     margin-top: 52px;
   }
+
+  .awesome {
+    padding: 2em 2.5em;
+
+    font-style: normal;
+}
+	.awesome-left h3 {
+	  font-size: 1.3em ;
+	  letter-spacing: -2px;
+	  width: 34% !important;
+	  margin:0 auto;
+	}
+	.awesome-left h3:after {
+	  height: 17px;
+	}
+	.awesome-left a.hvr-bounce-to-left1 {
+	  padding: 10px 33px 10px 50px;
+	  width: 26%;
+	  margin:0 auto;
+	  background: url(../images/windows.png) no-repeat 21px 11px #F5A802;
+	}
+	.hvr-bounce-to-left1:hover:before, .hvr-bounce-to-left1:focus:before, .hvr-bounce-to-left1:active:before {
+		background: url(../images/windows-.png) no-repeat 23px 12px #000;
+	}
+	.awesome-left {
+	  width: 100%;
+	  margin-bottom: 3em;
+	  float:none;
+	  text-align:center;
+	}
+	.awesome-right {
+	  margin-left: 0;
+	  float: none;
+	  width: 100%;
+	  margin-bottom:2em;
+	}
+    .awesome-right-grid{
+	float:left !important;
+	width:31% !important;
+	text-align: center;
+	position:relative;
+	}
+.awesome-right-grid:nth-child(2){
+	margin:0 1.87em;
+	}
+.awesome-right-grid h4{
+	color:#434343;
+	font-size:14px;
+	padding-bottom:.5em;
+	border-bottom:1px solid #DCDCDC;
+	margin:1em 0 .5em;
+	font-weight:600;
+	}
+.awesome-right-grid p{
+	color:#8D8D8D;
+	font-size:13px;
+	font-style:italic;
+	margin:0;
+	}
+    .b-animate-go{
+	text-decoration:none;
+}
+.b-animate{
+	transition: all 0.5s !important;
+	-moz-transition: all 0.5s !important ;
+	-ms-transition: all 0.5s !important;
+	-o-transition: all 0.5s !important;
+	-webkit-transition: all 0.5s !important;
+	visibility: hidden;
+
+}
+.b-animate img{
+	margin-top:30px;
+	display: -webkit-inline-box;
+}
+/* blt-ie9 */
+.b-animate-go:hover .b-animate{
+	visibility:visible;
+}
+.awesome-right-grid a img.one{
+	width:100%;
+	}
+.b-from-left{
+	position:relative;
+	left:-100%;
+}
+.b-animate-go:hover .b-from-left{
+	left:0;
+}
+.b-wrapper:hover {
+	background: rgba(0, 0, 0, 0.38);
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
 }
 @media (min-width: 768px) and only screen and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and only screen and (min--moz-device-pixel-ratio: 2), (min-width: 768px) and only screen and (-o-min-device-pixel-ratio: 2/1), (min-width: 768px) and only screen and (min-device-pixel-ratio: 2), (min-width: 768px) and only screen and (min-resolution: 192dpi), (min-width: 768px) and only screen and (min-resolution: 2dppx) {
   .revo-slider .slide__image2 {
@@ -9711,6 +9808,9 @@ a.custom-tooltip:hover {
     background-image: url("http://placehold.it/678x592");
     background-size: 678px 592px;
   }
+   .form__field{
+        width: 98%;
+    }
 }
 @media (min-width: 1800px) and only screen and (-webkit-min-device-pixel-ratio: 2), (min-width: 1800px) and only screen and (min--moz-device-pixel-ratio: 2), (min-width: 1800px) and only screen and (-o-min-device-pixel-ratio: 2/1), (min-width: 1800px) and only screen and (min-device-pixel-ratio: 2), (min-width: 1800px) and only screen and (min-resolution: 192dpi), (min-width: 1800px) and only screen and (min-resolution: 2dppx) {
   .revo-slider .slide__image2 {

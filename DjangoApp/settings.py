@@ -75,6 +75,12 @@ TEMPLATES = [
         },
     },
 ]
+TEMPLATE_DIRS = (
+    # Put strings here, like "/home/html/django_templates" or
+    # "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+)
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
@@ -172,3 +178,11 @@ LOGGING = {
 
 # Specify the default test runner.
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
+# Specify the default test runner.
+
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_PORT=587
+EMAIL_HOST_USER ='arabic.kanz.contact@gmail.com'
+EMAIL_HOST_PASSWORD='AKCOMPANY'
+EMAIL_USE_SSL = True
+

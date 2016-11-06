@@ -1,7 +1,7 @@
 {% extends "app/layout.html" %}
 
 {% block content %}
-
+ {% load static %}
     <!-- Page title -->
 	<div class="home-title-wrapper">
 		<div class="pattern-light-wrapper">
@@ -18,11 +18,11 @@
 	                <div class="circle-info-wrapper">
 	                    <div class="circle-info">
                             <div class="circle-info__front">
-		                        <h4 class="circle-info__title">Fast</h4>
+		                        <h4 class="circle-info__title">Research</h4>
 	                        </div>
                             <div class="circle-info__back">
-	                            <h4 class="circle-info__title">Fast</h4>
-	                            <p class="circle-info__text hidden-xs">Nunc sit amet orci sed lorem blandit lobortis quis sed dui. Quisque eget est sem, vel semper purus.</p>
+	                            <h4 class="circle-info__title">Research</h4>
+	                            <p class="circle-info__text hidden-xs"> our products are the result of several years efforts from a great team of Egyptian professors and researchers.</p>
                                 <a href="#"><i class="icon-circle icon-circle--small fa fa-arrow-right"></i></a>
 	                        </div>
 	                    </div>
@@ -33,11 +33,11 @@
 	                <div class="circle-info-wrapper">
 	                    <div class="circle-info">
                             <div class="circle-info__front">
-		                        <h4 class="circle-info__title">Easy</h4>
+		                        <h4 class="circle-info__title">Develop</h4>
 	                        </div>
                             <div class="circle-info__back">
-	                            <h4 class="circle-info__title">Easy</h4>
-	                            <p class="circle-info__text hidden-xs">Nunc sit amet orci sed lorem blandit lobortis quis sed dui. Quisque eget est sem, vel semper purus.</p>
+	                            <h4 class="circle-info__title">Develop</h4>
+	                            <p class="circle-info__text hidden-xs">We have a professional development team with  a very high skills .</p>
                                 <a href="#"><i class="icon-circle icon-circle--small fa fa-arrow-right"></i></a>
 	                        </div>
 	                    </div>
@@ -48,11 +48,11 @@
 	                <div class="circle-info-wrapper">
 	                    <div class="circle-info">
                             <div class="circle-info__front">
-		                        <h4 class="circle-info__title">Efficient</h4>
+		                        <h4 class="circle-info__title">Innovate</h4>
 	                        </div>
                             <div class="circle-info__back">
-	                            <h4 class="circle-info__title">Efficient</h4>
-	                            <p class="circle-info__text hidden-xs">Nunc sit amet orci sed lorem blandit lobortis quis sed dui. Quisque eget est sem, vel semper purus.</p>
+	                            <h4 class="circle-info__title">Innovate</h4>
+	                            <p class="circle-info__text hidden-xs">When Ideas comes to reality it means innovation.</p>
                                 <a href="#"><i class="icon-circle icon-circle--small fa fa-arrow-right"></i></a>
 	                        </div>
 	                    </div>
@@ -84,7 +84,7 @@
 	<!-- Begin main content -->
 
 	<!-- Begin page section -->
-	<section class="container benefits">
+	<section class="container benefits" >
 		<div class="row">
 			<div class="col-xs-12 col-md-7">
 				<h2 class="section-title">Tamkeen4st<span class="text-highlight">Mission</span></h2>
@@ -97,9 +97,9 @@
 			</div>
 			<div class="col-xs-8 col-md-3 col-xs-offset-2 col-md-offset-1 roundabout-wrapper">
 				<ul class="roundabout">
-                    <li class="roundabout-slide"><img src="images/iphone-blue.png" alt=""></li>
-                    <li class="roundabout-slide"><img src="images/iphone-dark.png" alt=""></li>
-                    <li class="roundabout-slide"><img src="images/iphone-pink.png" alt=""></li>
+                    <li class="roundabout-slide"><img src="static/app/images/iphone-blue.png" alt=""></li>
+                    <li class="roundabout-slide"><img src="static/app/images/iphone-dark.png" alt=""></li>
+                    <li class="roundabout-slide"><img src="static/app/images/iphone-pink.png" alt=""></li>
                 </ul>
 				<div class="roundabout-controls">
 					<a class="prev" href="#"></a>
@@ -112,7 +112,7 @@
 	<!-- End page section -->
 
 	<!-- Begin page section -->
-    <section class="services services--preview">
+    <section class="services services--preview" id="projects">
     	<div class="container">
 			<div class="row">
 	            <div class="col-sm-12">
@@ -140,43 +140,50 @@
 						<div class="swiper-container decorated-slider">
 						 	<div class="swiper-wrapper">
 
-							    <div class="swiper-slide swiper-slide--active" data-order="slide1">
+ {% for project in projects%}
+{#{% with "slide" |add :forloop.counter as sty %}#}
+							    <div class="swiper-slide swiper-slide--active" data-order="slide{{ forloop.counter }}">
 				                	<div class="services__item">
+                                        <img src="{{ project.image.url }}">
 										<i class="icon icon-circle icon-circle--lg fa fa-cog"></i>
-										<h4 class="service__title">Quick Support</h4>
+										<h4 class="service__title">{{ project.project_name }}</h4>
 									</div>
 								</div>
+{#{% endwith %}#}
+                                {% endfor %}
 
-							    <div class="swiper-slide" data-order="slide2">
-				                	<div class="services__item">
-										<i class="icon icon-circle icon-circle--lg fa fa-users"></i>
-										<h4 class="service__title">Multiple Users</h4>
-									</div>
-								</div>
-
-							    <div class="swiper-slide" data-order="slide3">
-				                	<div class="services__item">
-										<i class="icon icon-circle icon-circle--lg fa fa-cloud"></i>
-										<h4 class="service__title">Cloud Computing</h4>
-									</div>
-								</div>
-
-							    <div class="swiper-slide" data-order="slide4">
-				                	<div class="services__item">
-										<i class="icon icon-circle icon-circle--lg fa fa-tags"></i>
-										<h4 class="service__title">Cost Reduction</h4>
-									</div>
-								</div>
+{#							    <div class="swiper-slide" data-order="slide2">#}
+{#				                	<div class="services__item">#}
+{#										<i class="icon icon-circle icon-circle--lg fa fa-users"></i>#}
+{#										<h4 class="service__title">Multiple Users</h4>#}
+{#									</div>#}
+{#								</div>#}
+{##}
+{#							    <div class="swiper-slide" data-order="slide3">#}
+{#				                	<div class="services__item">#}
+{#										<i class="icon icon-circle icon-circle--lg fa fa-cloud"></i>#}
+{#										<h4 class="service__title">Cloud Computing</h4>#}
+{#									</div>#}
+{#								</div>#}
+{##}
+{#							    <div class="swiper-slide" data-order="slide4">#}
+{#				                	<div class="services__item">#}
+{#										<i class="icon icon-circle icon-circle--lg fa fa-tags"></i>#}
+{#										<h4 class="service__title">Cost Reduction</h4>#}
+{#									</div>#}
+{#								</div>#}
 
 			            	</div>
 						</div>
-
+{#service__description  service__description--active#}
 			            <div class="service__info">
-							<p class="service__description slide1 service__description--active"><strong>Fusce aliquet euismod luctus.</strong> Aliquam scelerisque tincidunt risus nec pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sed tristique massa. Aenean iaculis diam nec ligula ullamcorper eu tempus dolor ullamcorper. Morbi in nisi tincidunt neque gravida facilisis.  Pellentesque mattis nisl eget neque scelerisque adipiscing. Vestibulum euismod commodo odio sit amet congue. Donec ut sem vel mauris sodales egestas. Nulla eget lorem vitae diam ullamcorper tincidunt ut vel est. </p>
-		                	<p class="service__description slide2"><strong>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</strong> Sed adipiscing fermentum auctor. Mauris convallis mattis risus vitae cursus. Quisque dapibus venenatis lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu dui id sapien gravida accumsan. Duis ultrices scelerisque velit eget mollis. Nam rhoncus auctor tortor, eget consectetur magna viverra a. Phasellus non mauris ipsum, in vulputate risus. Praesent non ligula lectus. </p>
-		                	<p class="service__description slide3"><strong>Aenean facilisis tincidunt nibh, ac condimentum urna auctor ac. Nulla id ultricies ligula. </strong>Nulla ornare placerat eros, non aliquet quam ullamcorper nec. Morbi porta nulla sed elit rhoncus lobortis. Duis sit amet ante a augue pretium cursus pulvinar vel velit. Cras at nunc in libero mollis dignissim in ac metus. Pellentesque venenatis lobortis purus, eu scelerisque neque mattis id. Curabitur ut erat odio, nec posuere lacus. Vivamus vitae pulvinar felis. Duis faucibus nibh pulvinar ipsum fermentum blandit. </p>
-		                	<p class="service__description slide4"><strong>Aenean fermentum eros id purus volutpat id sodales turpis pellentesque.</strong> Donec sapien risus, aliquam quis dictum quis, vehicula vitae mauris. Proin cursus condimentum massa vitae molestie. Aenean nec ligula ante, quis aliquet eros. Aliquam sit amet egestas orci. Aliquam convallis, leo in varius imperdiet, mauris ante accumsan dui, ut faucibus leo purus vel tortor. Suspendisse in varius quam. Maecenas orci libero, dictum sit amet porta et, lobortis ut arcu. Vivamus dolor risus, dignissim vitae pharetra vitae, tincidunt in ligula. </p>
-			            </div>
+                            {% for project in projects %}
+							<p class= "service__description  service__description--active  slide{{ forloop.counter }}" ><strong>{{ project.project_name }}</strong> {{ project.description }} </p>
+{#		                	<p class="service__description slide2"><strong>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</strong> Sed adipiscing fermentum auctor. Mauris convallis mattis risus vitae cursus. Quisque dapibus venenatis lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu dui id sapien gravida accumsan. Duis ultrices scelerisque velit eget mollis. Nam rhoncus auctor tortor, eget consectetur magna viverra a. Phasellus non mauris ipsum, in vulputate risus. Praesent non ligula lectus. </p>#}
+{#		                	<p class="service__description slide3"><strong>Aenean facilisis tincidunt nibh, ac condimentum urna auctor ac. Nulla id ultricies ligula. </strong>Nulla ornare placerat eros, non aliquet quam ullamcorper nec. Morbi porta nulla sed elit rhoncus lobortis. Duis sit amet ante a augue pretium cursus pulvinar vel velit. Cras at nunc in libero mollis dignissim in ac metus. Pellentesque venenatis lobortis purus, eu scelerisque neque mattis id. Curabitur ut erat odio, nec posuere lacus. Vivamus vitae pulvinar felis. Duis faucibus nibh pulvinar ipsum fermentum blandit. </p>#}
+{#		                	<p class="service__description slide4"><strong>Aenean fermentum eros id purus volutpat id sodales turpis pellentesque.</strong> Donec sapien risus, aliquam quis dictum quis, vehicula vitae mauris. Proin cursus condimentum massa vitae molestie. Aenean nec ligula ante, quis aliquet eros. Aliquam sit amet egestas orci. Aliquam convallis, leo in varius imperdiet, mauris ante accumsan dui, ut faucibus leo purus vel tortor. Suspendisse in varius quam. Maecenas orci libero, dictum sit amet porta et, lobortis ut arcu. Vivamus dolor risus, dignissim vitae pharetra vitae, tincidunt in ligula. </p>#}
+			              {% endfor %}
+			             </div>
 
 		            </div>
 				</div>
@@ -238,7 +245,7 @@
 
 
     </section>
-    <section class="about" style="padding:25px;">
+    <section id="about" class="about" style="padding:25px;" >
      <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -253,12 +260,47 @@
 	</div>
     </section>
 	<!-- End page section -->
-<
+<section>
+
+<div class=" row awesome" id="latest">
+{#    <div class="col-md-4">#}
+{#        <h2> Sponsors & Partners </h2>#}
+{#    </div>#}
+
+			<div class=" col-md-12 awesome-right">
+                {% for sponsor in sponsors %}
+				<div class="awesome-right-grid">
+					<a href="{{ sponsor.photo.url }}" class="b-link-stripe b-animate-go   swipebox"  title="">
+                        <img class="one" src="{{ sponsor.photo.url }}" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								<img class="img-responsive" src="static/app/images/plus.png" class="zoom" alt=""/>
+							</h2>
+						</div>
+					</a>
 
 
+				</div>
+
+                {%endfor%}
 
 
+				<div class="clearfix"> </div>
+			</div>
+	<link rel="stylesheet" href="{% static 'app/css/swipebox.css'%}">
+<script src="{% static 'app/js/jquery.min.js' %}"></script>
 
+				<script src="{% static 'app/js/jquery.swipebox.min.js' %}"></script>
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+			<div class="clearfix"> </div>
+		</div>
+
+
+    </section>
 
 	<!-- End main content -->
 

@@ -1,0 +1,70 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+{% load static %}
+
+<<!-- Begin page section -->
+	<section class="container contact">
+		<div class="row">
+            <div class="col-sm-6">
+            	<h2 class="section-title">Get in<span class="text-highlight">touch</span></h2>
+            	<p class="contact__text"><strong>Contact us any time</strong> Your message will be welcome </p>
+            	 <address class="contact__info">
+			                	<span class="contact__info__item"><i class="icon-circle icon-circle--thin fa fa-phone"></i>(+20)1006504323</span><br/>
+			                    <span class="contact__info__item"><i class="icon-circle icon-circle--thin fa fa-envelope"></i><a href="mailto:appic@gmail.com">info@tamkeen4st.com</a></span>
+			                    <span class="contact__info__item"><i class="icon-circle icon-circle--thin fa fa-map-marker"></i>Smart-Village, Building (B5).
+Cairo-Alex Desert Road Giza, Egypt ,P.O. Box: 12577.</span>
+		               		</address>
+			</div>
+            <div class="col-sm-6">
+            <form id="pm-contact-form" action="" method="post" class="contact-form" >
+                              {% csrf_token %}
+                            <input name="name" id="pm_s_full_name" type="text" placeholder="Name *" class="form__field clearfix">
+                            <input name="email" id="pm_s_email_address" type="text" placeholder="Email *" class="form__field">
+                            <input name="subject" id="pm_s_subject" type="text" placeholder="Subject *" class="form__field">
+                            <textarea name="message" id="pm_s_message" cols="20" rows="6" placeholder="Inquiry *" class="form__field form__field--message"></textarea>
+
+                            <div id="pm-contact-form-response"></div>
+                            <input type="submit" class="btn btn-info btn-lg btn--highlight"  value="Submit" id="pm-contact-form-btn" />
+                            <input type="hidden" value="pm-contact-form-submitted" />
+                            <input type="hidden" name="pm_s_email_address_contact" value="leo@pulsarmedia.ca" />
+                <div id="response">
+                        {% if errors %}
+                           <ul>
+                          {% for error in errors %}
+                         <li>{{ error }}</li>
+                            {% endfor %}
+                          </ul>
+                            {% endif %}
+                        {% if  result%}
+                        <p> {{result}}</p>
+                         {% endif %}
+                    </div>
+                        </form>
+{#            	<form class="contact-form" id="contact-form" name="contact-form" method="post" action="" >#}
+{#                	 {% csrf_token %}#}
+{#                    <input class="form__field clearfix" id="user-name" name="name" type="text" placeholder="Name:">#}
+{#                    <input class="form__field" id="user-email" name="email" type="email" placeholder="Email:">#}
+{#                    <input class="form__field clearfix" id="subject" name="user-title" type="text" placeholder="Subject:">#}
+{#                	<textarea class="form__field form__field--message" name="message" id="user-message" placeholder="Message:"></textarea>#}
+{#                            <input type="submit" class="btn btn-info btn-lg btn--highlight"  value="Submit" id="pm-contact-form-btn" />#}
+{#                    <div id="response">#}
+{#                        {% if errors %}#}
+{#                           <ul>#}
+{#                          {% for error in errors %}#}
+{#                         <li>{{ error }}</li>#}
+{#                            {% endfor %}#}
+{#                          </ul>#}
+{#                            {% endif %}#}
+{#                        {% if  result%}#}
+{#                        <p> {{result}}</p>#}
+{#                         {% endif %}#}
+{#                    </div>#}
+{#                </form>#}
+			</div>
+		</div>
+		<!-- End row -->
+	</section>
+	<!-- End page section -->
+
+{% endblock %}

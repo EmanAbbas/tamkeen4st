@@ -41,7 +41,19 @@ urlpatterns = [
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
+
+
 ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+
+    # from django.conf import settings
+    #
+    # # ... your normal urlpatterns here
+    #
+    # if settings.DEBUG:
+    #     # static files (images, css, javascript, etc.)
+    #     urlpatterns += ('',
+    #                             (r'^media/(?P<path>.*)$', 'django.views.static.serve', {
+    #                                 'document_root': settings.MEDIA_ROOT}))

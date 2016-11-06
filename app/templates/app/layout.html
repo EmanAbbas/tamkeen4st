@@ -113,15 +113,15 @@
 	                            <a href={% url 'home' %}>Home</a>
 
 	                        </li>
-	                        <li><a href={% url 'home' %}>About</a></li>
+	                        <li><a href={% url 'home' %}#about>About</a></li>
                              <li>
 	                            <span class="sub-nav-toggle plus"></span>
-	                            <a href="#">Sponsors & Partners</a>
+	                            <a href={% url 'home' %}#partners>Sponsors & Partners</a>
 
 	                        </li>
                              <li>
 	                            <span class="sub-nav-toggle plus"></span>
-	                            <a href="#">Projects</a>
+	                            <a href={% url 'home' %}#projects>Projects</a>
 
 	                        </li>
 
@@ -170,12 +170,11 @@ Cairo-Alex Desert Road Giza, Egypt ,P.O. Box: 12577.</span>
                         </div>
                		</div>
 				</div>
+            <a class="btn btn--highlight btn-wider" href="{% url 'contact' %}" style="vertical-align: bottom">Contact Us</a>
 
-				<div class="col-sm-12 col-md-7 col-lg-6 widget-flickr">
-<a class="btn btn--highlight btn-wider" href="{% url 'contact' %}" style="vertical-align: bottom">Contact Us</a>
 
-				</div>
 			</div>
+
 		</div>
 		<!--End footer widget -->
 
@@ -215,7 +214,7 @@ Cairo-Alex Desert Road Giza, Egypt ,P.O. Box: 12577.</span>
 </div>
 
 <!--End wrapper -->
-
+<script src="{% static 'app/js/jquery.min.js' %}"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <!--Script jQuery-->
 <script>window.jQuery || document.write('<script src="external/jquery/jquery-1.11.0.min.js"><\/script>')</script> <!--Script jQuery-->
 <script src="{% static 'app/external/jquery/jquery-migrate-1.2.1.min.js' %}"></script>			<!--Script jQuery for old version jQuery-->
