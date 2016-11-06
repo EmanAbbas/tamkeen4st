@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd61c0f3-99a9-4b7e-88bc-574086507829" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/awsomef.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_emerald.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_emerald_light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_green_light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_orange_light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_pink_light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_purple_light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_red_light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_yellow_light.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/font-awesome.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/awsomef.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/app/css/font-awesome.css" afterPath="$PROJECT_DIR$/app/static/app/css/font-awesome.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/app/css/style.css" afterPath="$PROJECT_DIR$/app/static/app/css/style.css" />
@@ -74,25 +54,15 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/static/app/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="85">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/app/css/font-awesome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="awsomef.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/app/css/awsomef.css">
+      <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/app/css/font-awesome.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -171,8 +141,8 @@
         <option value="$PROJECT_DIR$/app/templates/app/home.html" />
         <option value="$PROJECT_DIR$/DjangoApp/urls.py" />
         <option value="$PROJECT_DIR$/app/templates/app/layout.html" />
-        <option value="$PROJECT_DIR$/app/static/app/css/style.css" />
         <option value="$PROJECT_DIR$/app/static/app/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/app/static/app/css/style.css" />
       </list>
     </option>
   </component>
@@ -317,32 +287,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoAzure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DjangoAzure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="DjangoApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -365,8 +309,8 @@
       <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app" />
       <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app\css" />
+      <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app" />
       <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app\images" />
       <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app\js" />
     </key>
@@ -1076,10 +1020,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/app/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
