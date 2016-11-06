@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd61c0f3-99a9-4b7e-88bc-574086507829" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/awsomef.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/fonts/fontawesome-webfont.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_emerald.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_emerald_light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_green_light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_orange_light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_pink_light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_purple_light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_red_light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/css/style_yellow_light.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/app/css/font-awesome.css" afterPath="$PROJECT_DIR$/app/static/app/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/app/css/style.css" afterPath="$PROJECT_DIR$/app/static/app/css/style.css" />
     </list>
     <list id="4ad8eb8a-c249-4331-8a78-a5fc79a180e0" name="Rejected commit: Default" comment="home page" />
     <ignored path="DjangoAzure.iws" />
@@ -31,21 +54,9 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="272" column="56" selection-start-line="272" selection-start-column="53" selection-end-line="272" selection-end-column="56" />
+            <state relative-caret-position="228">
+              <caret line="287" column="45" selection-start-line="287" selection-start-column="45" selection-end-line="287" selection-end-column="45" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
-              <folding>
-                <element signature="e#26#80#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -60,21 +71,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-ui.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/static/app/css/jquery-ui.min.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/app/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/app/css/font-awesome.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="115">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="awsomef.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/app/css/awsomef.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,31 +121,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/app/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="61" column="80" selection-start-line="61" selection-start-column="80" selection-end-line="62" selection-end-column="80" />
+              <folding>
+                <marker date="1478472314673" expanded="false" signature="1696:1702" ph="©" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.swipebox.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/app/js/jquery.swipebox.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="7" column="7123" selection-start-line="7" selection-start-column="7121" selection-end-line="7" selection-end-column="7123" />
               <folding />
             </state>
           </provider>
@@ -151,14 +164,15 @@
         <option value="$PROJECT_DIR$/app/templates/app/contact.html" />
         <option value="$PROJECT_DIR$/app/templates/app/contact_us.html" />
         <option value="$PROJECT_DIR$/app/views.py" />
-        <option value="$PROJECT_DIR$/app/templates/app/layout.html" />
-        <option value="$PROJECT_DIR$/app/static/app/css/style.css" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/DjangoApp/wsgi.py" />
         <option value="$PROJECT_DIR$/DjangoApp/settings.py" />
         <option value="$PROJECT_DIR$/app/templates/app/home.html" />
         <option value="$PROJECT_DIR$/DjangoApp/urls.py" />
+        <option value="$PROJECT_DIR$/app/templates/app/layout.html" />
+        <option value="$PROJECT_DIR$/app/static/app/css/style.css" />
+        <option value="$PROJECT_DIR$/app/static/app/css/font-awesome.css" />
       </list>
     </option>
   </component>
@@ -351,10 +365,10 @@
       <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app" />
       <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app\css" />
       <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app\images" />
       <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app\js" />
-      <recent name="C:\Users\EMAN\Documents\Visual Studio 2013\Projects\Tamkeen4st\DjangoAzure\app\static\app" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.DjangoAzure">
@@ -807,7 +821,7 @@
         <state relative-caret-position="1700">
           <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
           <folding>
-            <marker date="1478344345716" expanded="false" signature="1696:1702" ph="©" />
+            <marker date="1478472314673" expanded="false" signature="1696:1702" ph="©" />
           </folding>
         </state>
       </provider>
@@ -922,14 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/app/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156162">
-          <caret line="9186" column="4" selection-start-line="9186" selection-start-column="1" selection-end-line="9186" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/app/images/icons.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -943,16 +949,6 @@
         <state relative-caret-position="170">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3774">
-          <caret line="222" column="50" selection-start-line="222" selection-start-column="50" selection-end-line="222" selection-end-column="50" />
-          <folding>
-            <marker date="1478344345716" expanded="false" signature="1696:1702" ph="©" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,18 +1010,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="272" column="56" selection-start-line="272" selection-start-column="53" selection-end-line="272" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="287" column="45" selection-start-line="287" selection-start-column="45" selection-end-line="287" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="61" column="80" selection-start-line="61" selection-start-column="80" selection-end-line="62" selection-end-column="80" />
+          <folding>
+            <marker date="1478472314673" expanded="false" signature="1696:1702" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/css/jquery-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="3" column="1148" selection-start-line="3" selection-start-column="1148" selection-end-line="3" selection-end-column="1148" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/css/awsomef.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1038,10 +1060,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/app/css/jquery-ui.min.css">
+    <entry file="file://$PROJECT_DIR$/app/static/app/css/style_yellow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="99" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
