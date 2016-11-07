@@ -30,11 +30,9 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="278" column="47" selection-start-line="278" selection-start-column="47" selection-end-line="278" selection-end-column="47" />
-              <folding>
-                <element signature="e#13644#13665#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="177">
+              <caret line="272" column="91" selection-start-line="272" selection-start-column="91" selection-end-line="272" selection-end-column="91" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -696,9 +694,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#13644#13665#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -724,9 +720,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#13644#13665#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,11 +1026,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="278" column="47" selection-start-line="278" selection-start-column="47" selection-end-line="278" selection-end-column="47" />
-          <folding>
-            <element signature="e#13644#13665#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="272" column="91" selection-start-line="272" selection-start-column="91" selection-end-line="272" selection-end-column="91" />
+          <folding />
         </state>
       </provider>
     </entry>
