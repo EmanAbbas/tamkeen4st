@@ -260,14 +260,18 @@
 	</div>
     </section>
 	<!-- End page section -->
-<section>
+<section id="partners">
 
 <div class=" row awesome" id="latest">
 {#    <div class="col-md-4">#}
 {#        <h2> Sponsors & Partners </h2>#}
 {#    </div>#}
 
+
 			<div class=" col-md-12 awesome-right">
+            <hr/>
+            		            	<h2 class="section-title section-title--light">Sponsors & Partners   <span class="text-highlight"></span></h2>
+
                 {% for sponsor in sponsors %}
 				<div class="awesome-right-grid">
 					<a href="{% static sponsor.photo.url %}" class="b-link-stripe b-animate-go   swipebox"  title="">
