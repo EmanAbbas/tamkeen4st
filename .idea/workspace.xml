@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd61c0f3-99a9-4b7e-88bc-574086507829" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/app/home.html" afterPath="$PROJECT_DIR$/app/templates/app/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/app/layout.html" afterPath="$PROJECT_DIR$/app/templates/app/layout.html" />
     </list>
     <list id="4ad8eb8a-c249-4331-8a78-a5fc79a180e0" name="Rejected commit: Default" comment="home page" />
     <ignored path="DjangoAzure.iws" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="272" column="132" selection-start-line="272" selection-start-column="132" selection-end-line="272" selection-end-column="132" />
+            <state relative-caret-position="194">
+              <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
               <folding>
                 <element signature="e#13677#13698#0#HTML" expanded="true" />
               </folding>
@@ -89,13 +89,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/app/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="61" column="80" selection-start-line="61" selection-start-column="80" selection-end-line="62" selection-end-column="80" />
+            <state relative-caret-position="108">
+              <caret line="220" column="12" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="12" />
               <folding>
-                <marker date="1478472314673" expanded="false" signature="1696:1702" ph="©" />
+                <marker date="1478485435314" expanded="false" signature="1696:1702" ph="©" />
               </folding>
             </state>
           </provider>
@@ -137,10 +137,10 @@
         <option value="$PROJECT_DIR$/DjangoApp/wsgi.py" />
         <option value="$PROJECT_DIR$/DjangoApp/settings.py" />
         <option value="$PROJECT_DIR$/DjangoApp/urls.py" />
-        <option value="$PROJECT_DIR$/app/templates/app/layout.html" />
         <option value="$PROJECT_DIR$/app/static/app/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/app/static/app/css/style.css" />
         <option value="$PROJECT_DIR$/app/templates/app/home.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/layout.html" />
       </list>
     </option>
   </component>
@@ -767,7 +767,7 @@
         <state relative-caret-position="1700">
           <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
           <folding>
-            <marker date="1478472314673" expanded="false" signature="1696:1702" ph="©" />
+            <marker date="1478485435314" expanded="false" signature="1696:1702" ph="©" />
           </folding>
         </state>
       </provider>
@@ -964,16 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="61" column="80" selection-start-line="61" selection-start-column="80" selection-end-line="62" selection-end-column="80" />
-          <folding>
-            <marker date="1478472314673" expanded="false" signature="1696:1702" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/app/css/jquery-ui.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1032,10 +1022,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="272" column="132" selection-start-line="272" selection-start-column="132" selection-end-line="272" selection-end-column="132" />
+        <state relative-caret-position="194">
+          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
           <folding>
             <element signature="e#13677#13698#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="220" column="12" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="12" />
+          <folding>
+            <marker date="1478485435314" expanded="false" signature="1696:1702" ph="©" />
           </folding>
         </state>
       </provider>
