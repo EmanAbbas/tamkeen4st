@@ -18,8 +18,9 @@ python get-pip.py
 - ```virtualenv  env```
 - ```source env/bin/activate```
 ### Windows:
-```virtualenv  env```
-```source env/Scripts/activate```
+1. ```virtualenv  env```
+
+2. ```source env/Scripts/activate```
 
 3. ```cd [project_folder]```
 
