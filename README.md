@@ -2,7 +2,7 @@
 1. Download Git bash
 https://git-scm.com/downloads
 
-2. Get Python3
+2. Get Python2.7
 https://www.python.org/downloads/
 - Add python to PATH  (windows)
 - get Pip
